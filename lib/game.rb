@@ -9,7 +9,7 @@ class Game
     end
 
     def attack(name)
-      name.hit_points -= 10
+      name.take_damage
     end
 
 end
