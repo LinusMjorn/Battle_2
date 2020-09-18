@@ -32,6 +32,9 @@ class Battle < Sinatra::Base
     erb(:attack)
   end
 
+  get'/lose' do
+  end
+
 end
 
 
