@@ -1,6 +1,7 @@
 <%=@game.player.first.name%> attacked <%=@game.player.last.name%>.
+<br>
 
-<%=@game.player.first.name%>: <%=@game.player.last.hit_points%>HP
+<%=@game.player.last.name%>: <%=@game.player.last.hit_points%>HP
 
 <form action='/play'>
  <input type='submit' value='OK'>
